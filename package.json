@@ -1,0 +1,15 @@
+{
+  "name": "sitc_report",
+  "description": "This document forms the technical documentation for the Summer in the City project (ESOCCS12.013).  The project is a collaboration between Wageningen University and the Netherlands eScience center. The project ran from 2013 to 2016.",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "honkit build",
+    "serve": "honkit serve",
+    "pdf": "honkit pdf"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "honkit": "^5.1.4"
+  }
+}

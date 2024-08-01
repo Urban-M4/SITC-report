@@ -1,9 +1,4 @@
 {
-    "plugins": ["autocover"],
-    "pluginsConfig": {
-        "autocover": {
-            "watermark": "https://raw.githubusercontent.com/summerinthecity/report/master/images/Technical_Report_Coverpage_eScience.svg"
-        }
-        
-    }
+    "plugins": [],
+    "pluginsConfig": {} 
 }
