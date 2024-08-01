@@ -1,6 +1,13 @@
 # Summer in the City
 
-This document forms the technical documentation for the Summer in the City project (ESOCCS12.013).  The project is a collaboration between Wageningen University and the Netherlands eScience center. The project ran from 2013 to 2016.
+> [!NOTE]
+> This is a fork of https://github.com/summerinthecity/report. Since the GitBook
+> there is no longer available, this builds the report with
+> [honkit](https://github.com/honkit/honkit?tab=readme-ov-file#migration-from-gitbook)
+> instead. The generated report is available on github pages:
+> https://urban-m4.github.io/SITC-report/
+
+This document forms the technical documentation for the Summer in the City project (ESOCCS12.013). The project is a collaboration between Wageningen University and the Netherlands eScience center. The project ran from 2013 to 2016.
 
 Code, scripts, and configuration files are [hosted on github](https://github.com/summerinthecity)
 
@@ -10,14 +17,14 @@ An online demo of the interactive heatwave map, developed as part of the project
 
 (c) Jisk Attema, March 2016, Netherlands eScience Center
 
-Update 2024 Peter Kalverla:
+## Update 2024 Peter Kalverla:
 
-* Gitbook no longer works
-* Instead can now build with [honkit](https://github.com/honkit/honkit?tab=readme-ov-file#migration-from-gitbook)
-* To make a local build:
+- Gitbook no longer works
+- Instead can now build with [honkit](https://github.com/honkit/honkit?tab=readme-ov-file#migration-from-gitbook)
+- To make a local build:
 
 ```
-git clone ...
+git clone git@github.com:Urban-M4/SITC-report.git
 npm install
 npm run build
 npm run serve
